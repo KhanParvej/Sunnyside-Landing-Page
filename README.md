@@ -4,7 +4,7 @@
 ### Links
 
 - Solution URL: (https://github.com/KhanParvej/Sunnyside-Landing-Page)
-- Live Site URL:
+- Live Site URL: (https://khanparvej.github.io/Sunnyside-Landing-Page/)
 ## My process
 
 ### Built with
