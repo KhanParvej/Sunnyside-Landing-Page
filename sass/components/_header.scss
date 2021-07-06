@@ -1,0 +1,44 @@
+.main-header {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5rem;
+  &__logo {
+    height: 4rem;
+    @media only screen and (max-width: $bg-sm) {
+      height: 3rem;
+    }
+  }
+}
+.nav-bar {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.8rem;
+  flex-basis: 30%;
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item {
+    padding: 0 1rem;
+  }
+  &__link {
+    color: $color-white;
+    padding: 1rem 2rem;
+    transition: all 200ms ease-in-out;
+
+    &--active {
+      background-color: $color-white;
+      color: $color-dark-blue-2;
+      text-transform: uppercase;
+      font-weight: 600;
+      border-radius: 3rem;
+    }
+    &:hover {
+      background-color: rgba($color-gray-blue-1, 0.1);
+      color: #fff;
+      border-radius: 3rem;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.heading__primary {
+  font-size: 8rem;
+  font-weight: 900;
+  letter-spacing: 1rem;
+  color: $color-white;
+  margin-top: 0;
+  @media only screen and (max-width: $bg-sm) {
+    letter-spacing: 0.5rem;
+    font-size: 6rem;
+  }
+}
+.heading__secondary {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: $color-dark-blue-1;
+}
+.heading__tertiary {
+  font-size: 2rem;
+  font-weight: 5;
+}
+
+.text {
+  color: $color-gray-blue-1;
+  padding: 2rem 0;
+}

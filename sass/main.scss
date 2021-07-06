@@ -1,0 +1,16 @@
+// link to all pertial files
+
+@import "abstract/variables";
+@import "abstract/mixins";
+
+@import "base/base";
+
+@import "components/components";
+
+@import "components/header";
+@import "components/navbar";
+@import "components/headings";
+@import "components/footer";
+@import "layout/layout";
+
+@import "utilities/utilities";

@@ -1,0 +1,53 @@
+.user-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  @media only screen and (max-width: $bg-sm) {
+    flex-direction: column;
+  }
+
+  &__box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    @media only screen and (max-width: $bg-sm) {
+      width: 80%;
+      margin: 3.5rem 0;
+    }
+  }
+  &__photo {
+    width: 10rem;
+    border-radius: 50%;
+    border: 0.5rem solid $color-gray-blue-3;
+    box-sizing: content-box;
+  }
+  &__comment {
+    font-size: 1.6rem;
+    color: $color-dark-blue-2;
+    padding: 5rem 3rem;
+  }
+  &__user {
+    &-name {
+      font-family: "Fraunces", serif;
+      font-weight: 900;
+    }
+    &-position {
+      font-size: 1.4rem;
+      color: $color-gray-blue-2;
+    }
+  }
+}
+
+.gallary {
+  display: flex;
+  flex-wrap: wrap;
+  &__img {
+    width: 25%;
+    @media only screen and (max-width: $bg-md) {
+      width: 50%;
+    }
+  }
+}
